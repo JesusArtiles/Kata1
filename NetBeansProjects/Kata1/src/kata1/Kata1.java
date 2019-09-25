@@ -5,6 +5,8 @@
  */
 package kata1;
 
+import java.util.Date;
+
 /**
  *
  * @author Jesús Artiles
@@ -15,7 +17,10 @@ public class Kata1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Person p = new Person("Jesus", new Date(98,7,23));
+        System.out.println(p.getAge());
+                
+                
     }
     
 }
